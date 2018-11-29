@@ -1,0 +1,13 @@
+name: default
+title: InSpec Nslookup Profile
+maintainer: Brahm Lower
+copyright: Brahm Lower
+license: Apache-2.0
+summary: An InSpec Nslookup Compliance Profile
+version: 0.1.0
+supports:
+  platform: os
+attributes:
+  - name: dns_server
+    type: string
+    default: '8.8.8.8'
